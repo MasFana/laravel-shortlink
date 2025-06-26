@@ -31,7 +31,7 @@ class ShortLinkController extends Controller
     {
 
         $request->validate([
-            'code' => 'nullable|unique:short_links,code',
+            'code' => 'nullable|unique:short_links,code|max:100',
             'url' => 'required|url|unique:short_links,url|max:2048'
         ]);
 
@@ -64,7 +64,7 @@ class ShortLinkController extends Controller
         }
 
         $request->validate([
-            'code' => 'required|unique:short_links,code',
+            'code' => 'required|unique:short_links,code|max:100',
             'url' => 'required|url|max:2048'
         ]);
 

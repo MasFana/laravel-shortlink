@@ -3,8 +3,9 @@
 
     <head>
         <title>Edit ShortLink</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+        <link type="image/x-icon" href="https://raw.githubusercontent.com/MasFana/laravel-shortlink/refs/heads/master/public/favicon.ico" rel="shortcut icon">
         <style>
             body {
                 background-color: #212529;
