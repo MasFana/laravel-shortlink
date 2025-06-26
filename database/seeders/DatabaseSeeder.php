@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -19,5 +19,28 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+        
+        $ListLinkCode = [
+            [
+                'url' => 'https://github.com/MasFana/',
+                'code' => 'masfana',
+                'click_count' => 696969,
+            ],
+            [
+                'url' => 'https://www.instagram.com/ukmlaos/',
+                'code' => 'lawos',
+                'click_count' => 303030,
+            ],
+            [
+                'url' => 'https://github.com/MasFana/laravel-shortlink',
+                'code' => 'repoini',
+                'click_count' => 141414,
+            ],
+        ];
+
+        foreach ($ListLinkCode as $link) {
+            \App\Models\ShortLink::create($link);
+        }
+        
     }
 }
