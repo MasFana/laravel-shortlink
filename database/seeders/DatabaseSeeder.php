@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             ],
             [
                 'url' => 'https://github.com/MasFana/laravel-shortlink',
-                'code' => 'repoini',
+                'code' => 'repo',
                 'click_count' => 141414,
             ],
         ];

@@ -10,7 +10,7 @@ class ShortLinkController extends Controller
     protected $protectedCodes = [
         'masfana',
         'lawos',
-        'repoini',
+        'repo',
     ];
 
     protected function Jaga(string $code)
