@@ -122,7 +122,7 @@
                 </form>
             </div>
 
-            <div class="container overflow-scroll">
+            <div class="container overflow-x-auto">
                 <table class="table-dark table-hover table">
                     <thead>
                         <tr>
