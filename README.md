@@ -2,6 +2,7 @@
 
 Sebuah aplikasi web Laravel sederhana untuk membuat, mengedit, dan melacak URL pendek seperti Bitly.
 
+**DEMO** : https://s.fana.my.id
 ---
 
 ## 📁 Struktur Proyek
