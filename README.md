@@ -102,6 +102,5 @@ Aplikasi akan dapat diakses di: `http://localhost:8000`
 ## 🌐 Fitur
 
 * Generate URL pendek dari URL panjang.
-* Proteksi terhadap kode pendek tertentu (`masfana`, `lawos`, `repoini`).
 * Edit dan hapus URL pendek.
 * Redirect otomatis dan pelacakan klik.
